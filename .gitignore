@@ -1,0 +1,6 @@
+.venv
+.vscode
+data
+config.json
+**__pycache__
+output.csv
