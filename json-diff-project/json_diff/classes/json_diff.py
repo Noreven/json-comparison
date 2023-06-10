@@ -1,6 +1,6 @@
 from collections import OrderedDict
 
-from classes.result import Create, Result, Update, Delete
+from json_diff.classes.result import Create, Result, Update, Delete
 
 
 class JsonDiff:

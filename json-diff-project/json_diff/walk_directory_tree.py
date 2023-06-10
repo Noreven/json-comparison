@@ -1,8 +1,8 @@
 import filecmp
 import os
 
-from classes.json_diff import JsonDiff
-from utils.read_json import read_json
+from json_diff.classes.json_diff import JsonDiff
+from json_diff.utils.read_json import read_json
 
 
 def walk_directory_tree(path1: str, path2: str, changes: list = []):

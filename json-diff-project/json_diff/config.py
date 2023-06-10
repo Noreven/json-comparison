@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from utils.read_json import read_json
+from json_diff.utils.read_json import read_json
 
 
 @dataclass

@@ -1,7 +1,7 @@
 import json
 import os
 
-from utils.pascal_to_snake import pascal_to_snake
+from json_diff.utils.pascal_to_snake import pascal_to_snake
 
 
 def read_json(path: str, *args) -> dict:
